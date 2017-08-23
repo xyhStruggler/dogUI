@@ -1,74 +1,260 @@
 # Changelog
 
--   Version 1.8.8
+-   Version 4.5.3
+    -   Fix minor input bug
+    -   Add button style
+    -   Fix input dereative bugs
+-   Version 4.5.2
+    -   Fix minor style bug
+-   Version 4.5.1
+    -   Fix minor bugs
+-   Version 4.5.0
+    -   Add top credit
+    -   Fix color issue
+    -   Update size of left paddingbar
+    -   Fix minor bugs
+    -   Add more function to float button
+    -   Update Vue addon experience
+    -   Update documents
+-   Version 4.4.9
+    -   Update float content display
+    -   Add name bar of all out components
+    -   Update documents
+    -   Fix minor bugs
+-   Version 4.4.8
+    -   Add float button
+    -   Fix z-index bugs
+    -   Tested caperjs work well with dogui
+-   Version 4.4.7
+    -   Add release function of window.dog
+    -   Fix minor bugs
+    -   Edit document
+-   Version 4.4.6
+    -   Make import faster
+    -   Add angular description to documents
+-   Version 4.4.5
+    -   Fix version numbers on NPM
+    -   Fix dependence bugs
+-   Version 4.4.4
+    -   Upade documents
+    -   Fix minor bugs
+-   Version 4.4.3
+    -   Initiallize angular components
+    -   Will move to version 5 after angular completed
+    -   Fix minor bugs
+-   Version 4.4.2
+    -   Fix minor bugs (Minor bug horriable)
+-   Version 4.4.1
+    -   Make default draw view to right for not replaced by mostly app's motion
+    -   Fix interfaces bugs
+    -   Fix minor bugs
+    -   Add typo fixer for extends and interfaces
+-   Version 4.4.0
+    -   Update fold calling function
+        -   Now use slot=half and normally slot to use it
+    -   Add draw menu
+        -   Add draw to extend to use it
+        -   Use div slot=draw in cover to input content in it
+    -   Make vue plug in more elegant
+    -   Ester egg now have 96 percent default percentage
+    -   Update tiny document in readme
+    -   Fix bugs in cover vue
+    -   Fix minor bugs
+-   Version 4.3.7
+    -   Add small version of static
+        -   Use dog-small or sampler version of sma to use it
+-   Version 4.3.6
+    -   Alert not competable with any langth of information
+    -   Fix minor bugs
+-   Version 4.3.5
+    -   Fix switch hidden bug
+    -   Fix nav bar example issue
+    -   Add description of plugin
+-   Version 4.3.4
+    -   Add sample mode
+    -   Fix minor bugs
+-   Version 4.3.3
+    -   Move back function to addon interface
+    -   Fix minor bugs
+    -   Add ester eggs
+-   Version 4.3.2
+    -   Fixed differnet plantform have different view of switch issue
+    -   Fix minor bugs
+    -   Clean codes
+-   Version 4.3.1
+    -   Fix issue of switch
+    -   Fix padding bugs
+    -   Fix minor bugs
+-   Version 4.3.0
+    -   Add fold block Use slot name for dwo divitions
+    -   Fix minor bugs
+    -   Fix font bugs
+-   Version 4.2.2
+    -   Add watch of switch button
+    -   Fix outlanding
+    -   Fix minor bugs
+-   Version 4.2.1
+    -   Fix minor bugs
+    -   Small modiified margein and pedding
+    -   Beautify
+-   Version 4.2.0
+    -   Add switch button module
+    -   Fix minor bugs
+-   Version 4.1.0
+    -   Add dog-static module
+    -   Add Credit module
+    -   Use addOn to inital dog variable
+    -   Add interface settings
+-   Version 4.0.0
+    -   Now dogui import both part component and interface
+    -   Use Vue.use(dogui.vue) or Vue.use(vue) to import it
+-   Version 3.1.1
+    -   Update calling function of qrcode
+    -   Make qrcode avaiable with text
+-   Version 3.1.0
+    -   Third and forth argument of dog.qrcode for center and topper picture
+    -   Fix minorbug
+-   Version 3.0.2
+    -   Going to add react version of dogui
+    -   Fix minor bug
+-   Version 3.0.1
+    -   Support html tags in alert
+-   Version 3.0.0
+    -   Create desktop version of dogui
+    -   Analysis import methods
+    -   Fix minor bugs
+    -   Update colors
+    -   Add gitkeepers dumb file
+-   Version 2.2.5
+    -   Fix minor bugs
+    -   Remove bottom white bar
+    -   Fix ugly colors
+-   Version 2.2.4
+    -   Fix late nav bar bugs
+-   Version 2.2.3
+    -   Fix cover bug
+    -   Fix ugly colors again
+-   Version 2.2.2
+    -   Fix ugly colors
+-   Version 2.2.1
+    -   Fix life line error
+    -   Fix minor bugs
+-   Version 2.2.0
+    -   Update readme
+    -   Make block content appear faster
+    -   Update loading animations
+    -   Fix minor bugs
+    -   Clean codes
+    -   Add config file
+    -   Fix textarea bugs
+    -   Add color collection
+-   Version 2.1.4
+    -   Fix minor bug
+    -   Fix display bugs
+    -   Add starter value for select box
+-   Version 2.1.3
+    -   Fix select on change
+-   Version 2.1.2
+    -   Fix minor bugs
+-   Version 2.1.1
+    -   Fix alert bugs
+    -   Fix auto option bugs from selector
+    -   Update example case
+-   Version 2.1.0
+    -   Add alert module
+-   Version 2.0.0
+    -   Change window calling methods
+    -   Now all window function changed to window.dog
+    -   Fix bugs
+-   Version 1.9.0
+-   Version 1.8.11 (removed)
+    -   fix minor bugs
+    -   Make nav abr works more smoothly
+-   Version 1.8.10 (removed)
+    -   Change all displaying info to 'info'
+    -   Make animate of loading shorter
+    -   Fix minor bugs
+    -   Using latest doglib
+-   Version 1.8.9 (removed)
+    -   Fix input issue
+-   Version 1.8.8 (removed)
     -   Update size
     -   Fix issue
--   Version 1.8.7
+-   Version 1.8.7 (removed)
     -   Fix date input issue
     -   Fix dollar icon issue
--   Version 1.8.6
+-   Version 1.8.6 (removed)
     -   Perfect input margin size
     -   Add money, pass, tel, email, date input functions
     -   Add input signial to select panel
--   Version 1.8.5
+-   Version 1.8.5 (removed)
     -   Add input hint for input and textarea
     -   Fix testarea minor bugs
--   Version 1.8.4
+-   Version 1.8.4 (removed)
     -   Fix white border bug
--   Version 1.8.3
+-   Version 1.8.3 (removed)
     -   Beautify tables
     -   Componented padding bar
--   Version 1.8.2
+-   Version 1.8.2 (removed)
     -   Ifx table bug
--   Version 1.8.1
+-   Version 1.8.1 (removed)
     -   Update table format
--   Version 1.8.0
+-   Version 1.8.0 
     -   Add qrcode function
     -   thanks for qrgenerate js source code
--   Version 1.7.2
+-   Version 1.7.2 (removed)
     -   Fix input pre value bug
--   Version 1.7.1
+-   Version 1.7.1 (removed)
     -   Add padding line to upload page
     -   fix bugs
--   Version 1.7.0
+-   Version 1.7.0 (removed)
     -   Add Uploading view
     -   Add nav bar view
     -   Fix bugs
     -   Update cover view
--   Version 1.6.1
+-   Version 1.6.1 (removed)
     -   Fix minor bugs
     -   Fix border color
--   Version 1.6.1
+-   Version 1.6.1 (removed)
     -   Fix minor bugs
     -   Fix textarea bugs
     -   Fix bounding bugs
--   Version 1.6.0
+-   Version 1.6.0 (removed)
     -   Add Pictures view
     -   Add Domb view
--   Version 1.5.1
+-   Version 1.5.1 (removed)
     -   Fix minor bugs
--   Version 1.5.0
+-   Version 1.5.0 (removed)
     -   Add Info view
     -   Fix bugs
--   Version 1.4.0
+-   Version 1.4.0 (removed)
     -   Add Cover view
     -   Add loading view
     -   Fix input bugs
--   Version 1.3.0
+-   Version 1.3.0 (removed)
     -   Add Textarea view
     -   Fix bugs
--   Version 1.2.1
+-   Version 1.2.3
+-   Version 1.2.2
+-   Version 1.2.1 (removed)
     -   FIx minor bugs
--   Version 1.2.0
+-   Version 1.2.0 (removed)
     -   Add Bar view
     -   Add Search bar view
--   Version 1.1.0
+-   Version 1.1.1
+-   Version 1.1.0 (removed)
     -   Add picture upload view
     -   Add selector view
     -   Fix bugs
--   Version 1.0.0
+-   Version 1.0.5
+-   Version 1.0.4
+-   Version 1.0.3
+-   Version 1.0.2
+-   Version 1.0.1 (unpublished)
+-   Version 1.0.0 (removed)
     -   Update to useable version
     -   Input view
     -   Block view
     -   Title view
     -   Cell view
+-   Version 0.0.1 (unpublished)

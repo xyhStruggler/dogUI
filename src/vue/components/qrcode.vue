@@ -22,16 +22,23 @@
                 </tr>
             </table>
         </div>
-        <div class="above"><img src="./img/Atthisicon.png"></div>
+        <div class="above" v-if="imgSetting">
+            <img class="imgs" v-if="imgSetting.mode=='image'" :src="imgSetting.center">
+            <span class="imgs" v-if="imgSetting.mode=='text'" v-html="imgSetting.center"></span>
+        </div>
     </div>
 </template>
 
 <script>
+    import {
+        qrtable
+    } from 'doglib';
     export default {
         data: function () {
             return {
-                qrcode: require('doglib').qrtable,
-                src: ""
+                src: "",
+                image: false,
+                text: false
             }
         },
         computed: {
@@ -39,13 +46,16 @@
         },
         watch: {
             content: function () {
-                this.src = this.qrcode(this.content, 6);
+                this.src = qrtable(this.content, 6);
+            },
+            imgSetting: function () {
+                this.src = qrtable(this.content, 6);
             }
         },
         mounted: function () {
-            this.src = this.qrcode(this.content, 6);
+            this.src = qrtable(this.content, 6);
         },
-        props: ['content'],
+        props: ['content', 'imgSetting'],
         components: {},
         methods: {
             toClass: function (ingo) {
@@ -64,9 +74,10 @@
     td {
         height: 8px;
         width: 8px;
+        border: 0px;
     }
 
-    img {
+    .imgs {
         width: 48px;
         height: 48px;
         background-color: rgba(216, 117, 0, 0.95);

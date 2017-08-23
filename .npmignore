@@ -11,7 +11,8 @@ demo
 src/App.vue
 src/main.js
 index.html
-
+documents
+img
 # Runtime data
 pids
 *.pid

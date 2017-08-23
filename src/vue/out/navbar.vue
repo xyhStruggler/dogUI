@@ -17,23 +17,23 @@
                 stacks: []
             }
         },
-        props: [],
-        mounted: function () {
-            window.nav = (name, fun) => {
+        props: ['mount'],
+        created: function () {
+            window.dog.nav = (name, fun) => {
                 this.stacks.push({
                     name: name,
                     fun: fun
                 });
+                fun();
                 return true;
             }
         },
-        name: "dog-nav-bar",
-        components: {
-
+        mounted: function () {
+            if (this.mount) {
+                this.mount();
+            }
         },
-        computed: {
-
-        },
+        name: "dog-nav",
         methods: {
             activateNav: function (index) {
                 if (index != this.stacks.length - 1) {
